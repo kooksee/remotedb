@@ -3,10 +3,9 @@ package remotedb
 import (
 	"context"
 	"fmt"
-
+	"github.com/kooksee/remotedb/grpcdb"
+	"github.com/kooksee/remotedb/proto"
 	"github.com/tendermint/tendermint/libs/db"
-	"github.com/tendermint/tendermint/libs/db/remotedb/grpcdb"
-	protodb "github.com/tendermint/tendermint/libs/db/remotedb/proto"
 )
 
 type RemoteDB struct {

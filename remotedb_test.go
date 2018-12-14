@@ -1,14 +1,14 @@
 package remotedb_test
 
 import (
+	"github.com/kooksee/remotedb"
+	"github.com/kooksee/remotedb/grpcdb"
 	"net"
 	"os"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/libs/db/remotedb"
-	"github.com/tendermint/tendermint/libs/db/remotedb/grpcdb"
 )
 
 func TestRemoteDB(t *testing.T) {

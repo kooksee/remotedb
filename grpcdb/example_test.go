@@ -3,10 +3,9 @@ package grpcdb_test
 import (
 	"bytes"
 	"context"
+	"github.com/kooksee/remotedb/grpcdb"
+	"github.com/kooksee/remotedb/proto"
 	"log"
-
-	grpcdb "github.com/tendermint/tendermint/libs/db/remotedb/grpcdb"
-	protodb "github.com/tendermint/tendermint/libs/db/remotedb/proto"
 )
 
 func Example() {

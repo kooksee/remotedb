@@ -2,15 +2,14 @@ package grpcdb
 
 import (
 	"context"
+	"github.com/kooksee/remotedb/proto"
+	"github.com/tendermint/tendermint/libs/db"
 	"net"
 	"sync"
 	"time"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
-
-	"github.com/tendermint/tendermint/libs/db"
-	protodb "github.com/tendermint/tendermint/libs/db/remotedb/proto"
 )
 
 // ListenAndServe is a blocking function that sets up a gRPC based

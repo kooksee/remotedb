@@ -1,10 +1,9 @@
 package grpcdb
 
 import (
+	"github.com/kooksee/remotedb/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
-
-	protodb "github.com/tendermint/tendermint/libs/db/remotedb/proto"
 )
 
 // Security defines how the client will talk to the gRPC server.
